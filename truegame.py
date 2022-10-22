@@ -71,7 +71,7 @@ def score(nice,mean,name):
     # score function is being passed the value stored withing the 3 variables
         if nice >  2: # if condition is valid, call win function passing in the variables so it can use them
             win(nice,mean,name)
-        if nice >  2: # if condition is valid, call lose function passing in the variables so it can use them
+        if mean >  2: # if condition is valid, call lose function passing in the variables so it can use them
             lose(nice,mean,name)
         else :          # else, call nice_mean function passing in the variables so it can use them
             nice_mean(nice,mean,name)
