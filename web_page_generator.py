@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import *
 import webbrowser
 
+
 from setuptools import Command
 
 class ParentWindow(Frame):
