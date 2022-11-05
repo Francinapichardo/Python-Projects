@@ -1,13 +1,18 @@
-
+import string
 import tkinter as tk
 from tkinter import *
 import webbrowser
+
+
+from setuptools import Command
 
 class ParentWindow(Frame):
     def __init__(self, master):
         Frame.__init__(self,master)
         #sets title of GUI window
         self.master.title("Web Page Generator")
+
+        self.varCustomText = StringVar()
 
         #Creates a button
         self.btn_default = Button(self.master, text="Default HTML Page", width=30, height=2, command=self.defaultHTML)
