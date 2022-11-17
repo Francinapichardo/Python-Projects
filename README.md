@@ -10,16 +10,16 @@ Django Checkbook App Project,
 Django University Project,
 Basic Web Page Generator
 
-Phonebook
+Phonebook :
 This project functions as a phone book for a user. It saves a contact's name, phone number, and email address in a databse and allows the user to update and delete previously stored entried.
 
-Check Files GUI
+Check Files GUI :
 This project allows the user to choose transfer all .txt files from one chosen directory to another. All files that are moved will be saved in a database.
 
-Phonebook
+Phonebook :
 This project functions as a phone book for a user. It saves a contact's name, phone number, and email address in a databse and allows the user to update and delete previously stored entried.
 
-Checkbook App
+Checkbook App :
 This project allows a user to create a bank account with a mock bank and add/delete transactions that will be saved in a database and present as a table on a webpage of the website.
 
 Basic Web Page Generator
