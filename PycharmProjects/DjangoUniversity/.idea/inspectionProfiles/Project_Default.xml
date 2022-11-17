@@ -31,6 +31,8 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="django.core.*" />
+          <option value="BlueBirdBanking.BlueBirdBanking.urls.include" />
+          <option value="django.db.models.fields.CharField.__add__" />
         </list>
       </option>
     </inspection_tool>
