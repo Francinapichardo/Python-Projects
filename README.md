@@ -4,10 +4,10 @@ These are basic projects written in Python. They use various modules such as tki
 
 Projects:
 
-Check Files GUI
-Phonebook
-Django Checkbook App Project
-Django University Project
+Check Files GUI,
+Phonebook,
+Django Checkbook App Project,
+Django University Project,
 Basic Web Page Generator
 
 Phonebook
