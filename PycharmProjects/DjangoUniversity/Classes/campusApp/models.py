@@ -5,7 +5,7 @@ from django.db import models
 class UniversityCampus(models.Model):
     Campus_name = models.CharField(max_length=60, default="", blank=True, null=False)
     State = models.IntegerField(max_length=2, default="", blank=True, null=False)
-    Campus_ID = models.CharField(max_length=60, default="", blank=True, null=None)
+    Campus_ID = models.CharField(max_length=60, default="", blank=True, null=False)
 
     # Creates model manager
     object = models.Manager()
@@ -14,8 +14,7 @@ class UniversityCampus(models.Model):
     def __str__(self):
         # Returns the input value of the tittle and instructor name
         # field as a tuple to display in the browser instead of the default tittles
-        display_course = '{0,tittle}: {0,instructor_name}'
-        return display_course.format(self)
+        return self.Campus_name + ": " + self.Campus_ID
 
     # Removes added 's' that Django adds to the model name in the browser display
     class Meta:
