@@ -4,7 +4,7 @@ from django.db import models
 # Creates model of University Campus
 class UniversityCampus(models.Model):
     Campus_name = models.CharField(max_length=60, default="", blank=True, null=False)
-    State = models.IntegerField(max_length=2, default="", blank=True, null=False)
+    State = models.CharField(max_length=2, default="", blank=True, null=False)
     Campus_ID = models.CharField(max_length=60, default="", blank=True, null=False)
 
     # Creates model manager
